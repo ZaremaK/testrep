@@ -1,9 +1,37 @@
-.title {
-  color: blue;
-  font-size: 25px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.subtitle {
-  color: green;
-  font-size: 15px;
+body {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.size {
+  width: 45px;
+}
+.error-message__height {
+  color: red;
+  text-align: right;
+  margin-right: 80px;
+}
+.error-message__square {
+  color: red;
+  text-align: right;
+  margin-right: 80px;
+}
+.error-message__module {
+  color: red;
+  text-align: right;
+  margin-right: 80px;
+}
+.radio__wrapper {
+  margin-left: 100px;
+}
+.result {
+  text-align: center;
+  margin-top: 20px;
 }
